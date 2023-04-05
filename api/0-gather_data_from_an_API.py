@@ -1,11 +1,11 @@
 #!/usr/bin/python3
-''' REST API, for a given employee ID '''
+''' Return information about his/her TODO list progress from an REST API '''
 from requests import get
 from sys import argv
 
 
 def get_api():
-    ''' data from an API '''
+    ''' Gather data from an API '''
     emp_id = int(argv[1])
     emp_name = ''
     tasks_done = 0
